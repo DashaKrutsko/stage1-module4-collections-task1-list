@@ -21,7 +21,5 @@ class ListComparator implements Comparator<String> {
         } else return z.compareTo(w);
     }
 
-    public ListComparator() {
-    }
 }
 
