@@ -1,7 +1,5 @@
 package com.epam.mjc.collections.list;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -21,6 +19,9 @@ class ListComparator implements Comparator<String> {
         if (z.compareTo(w) == 0) {
             return x.compareTo(y);
         } else return z.compareTo(w);
+    }
+
+    public ListComparator() {
     }
 }
 
